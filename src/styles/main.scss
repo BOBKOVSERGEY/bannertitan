@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
 }
-
 .wrap-banner .wrap-banner__overlay {
   position: fixed;
   z-index: 9;
@@ -45,6 +44,10 @@
   position: absolute;
   top: -5px;
   right: -32px;
+  transition: all .3s;
+}
+.wrap-banner__close:hover {
+  transform: rotate(180deg);
 }
 .wrap-banner__popup .wrap-banner__close:before, .wrap-banner__popup .wrap-banner__close:after {
   position: absolute;
@@ -246,4 +249,9 @@
       display: inline-block;
     }
   }
+}
+.body-sale-banner{
+  margin-right: 17px;
+  overflow: hidden;
+  height: 100%;
 }
